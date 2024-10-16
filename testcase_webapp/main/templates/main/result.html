@@ -1,0 +1,13 @@
+  <!DOCTYPE html>
+   <html>
+   <head>
+       <title>Результат</title>
+   </head>
+   <body>
+       <h1>Результат анализа отзыва</h1>
+       <p>Ваш отзыв: {{ review }}</p>
+       <p>Тональность: {{ sentiment }}</p>
+       <p>Оценка: {{ rating }}</p>
+       <a href="{% url 'review' %}">Назад</a>
+   </body>
+   </html>
